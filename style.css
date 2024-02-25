@@ -45,7 +45,9 @@ h1{    text-align: center;
     letter-spacing: 1px;    
     box-shadow: 5px 5px 10px rgba(246, 246, 245, 0.388);
     position: absolute;    
-    border-radius: 12px 12px 12px 12px;}
+    border-radius: 12px 12px 12px 12px;
+
+}
     
 
 
@@ -82,21 +84,21 @@ img{
     border: 2px solid black;
     display: flex; justify-content: space-around;
     height: 250px;
-    width: 100%; border-radius: 10px ; overflow: auto;
+    width: 100%; border-radius: 10px ; 
     flex-grow: 1;
     flex-shrink: 0;
-    overflow: auto;
+    
 }
 
 .box{
-    width: 400px;
+    width: 380px;
     height: 220px;
     border: 2px solid rgb(58, 235, 14); flex-shrink: 0;
-    margin: 5px; padding: 4px; text-align: justify;
+    margin: 5px; padding: 6px; text-align: justify;
     border-radius: 10px;
     overflow: auto; flex-grow: 1;
     flex-shrink: 0;
-    overflow: auto;
+    
 }
 
 
